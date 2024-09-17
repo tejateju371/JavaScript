@@ -6,15 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="header"> <h1> Hello bro</h1>
-    </div>
+   <h1> Hello bro</h1>
     
  <script>
-var hed=document.getElementById("header");
-hed.innerHTML="<h1>by raae  goode</h1>";
-console.log(hed);
- 
+   let total=0;
+ function add(name,...numbers){
+    console.log('my name is '+name)
 
+for( i in numbers){
+
+    total=total+numbers[i];
+}
+console.log(total)
+
+ }
+
+ add("teju",1,2,3, 5)
+ 
  </script>   
 </body>
 </html>
